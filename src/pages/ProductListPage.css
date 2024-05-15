@@ -1,0 +1,27 @@
+.product-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .product-management-heading{
+    color: #ffffff !important;
+    font-size: 24px;
+  }
+  .product-table {
+    margin-top: 20px;
+  }
+  
+  .category-clothes {
+    background-color: #e6f7ff;
+  }
+  
+  .category-electronics {
+    background-color: #fff7e6;
+  }
+  
+  .category-beauty {
+    background-color: #f6ffed;
+  }
+  
