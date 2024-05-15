@@ -1,6 +1,10 @@
-Project Title Product Management Application
+Project Title
 
-Description A user-friendly interface for managing products with features like viewing, adding, editing, and deleting products. The application utilizes React, Ant Design for UI components, TypeScript for type safety, and effective state management.
+Product Management Application
+
+Description
+
+A user-friendly interface for managing products with features like viewing, adding, editing, and deleting products. The application utilizes React, Ant Design for UI components, TypeScript for type safety, and effective state management.
 
 Folder/File Structure and Libraries Used
 

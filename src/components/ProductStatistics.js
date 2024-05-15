@@ -1,13 +1,14 @@
 // src/components/ProductStatistics.js
-import React from 'react';
-import { Card, Statistic, Row, Col } from 'antd';
-import { useProductContext } from '../context/ProductContext';
-import './ProductStatistics.css';
+import React from 'react'
+import {Card, Statistic, Row, Col} from 'antd'
+import {useProductContext} from '../context/ProductContext'
+import './ProductStatistics.css'
 
 const ProductStatistics = () => {
-  const { products } = useProductContext();
-  const totalProducts = products.length;
-  const uniqueCategories = new Set(products.map(product => product.category)).size;
+  const {products} = useProductContext()
+  const totalProducts = products.length
+  const uniqueCategories = new Set(products.map(product => product.category))
+    .size
 
   return (
     <Row gutter={16} className="statistics-row">
@@ -22,7 +23,7 @@ const ProductStatistics = () => {
         </Card>
       </Col>
     </Row>
-  );
-};
+  )
+}
 
-export default ProductStatistics;
+export default ProductStatistics
